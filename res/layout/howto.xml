@@ -1,0 +1,73 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".AttractionActivity" >
+
+        <TextView
+            android:id="@+id/howToTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/howto"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/howToCrosshair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="fill_horizontal"
+            android:text="@string/crosshair"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/crosshairImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/crosshairDescription"
+            android:src="@drawable/crosshair" />
+
+        <TextView
+            android:id="@+id/howToEnemy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enemy"
+            android:gravity="fill_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/enemyDescription"
+            android:src="@drawable/howto_normalenemy" />
+
+        <TextView
+            android:id="@+id/howToController"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/controller"
+            android:gravity="fill_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/controllerDescription"
+            android:src="@drawable/controller" />
+
+    </LinearLayout>
+
+</ScrollView>

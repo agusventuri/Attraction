@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.midas.attraction.GameSurface
+        android:id="@+id/gamesurface"
+        android:layout_width="326dp"
+        android:layout_height="532dp" />
+
+    <com.midas.attraction.Controller
+        android:id="@+id/controller"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp" />
+
+    <TextView
+        android:id="@+id/showMoveEvent"
+        android:layout_width="match_parent"
+        android:layout_height="46dp" />
+
+</FrameLayout>

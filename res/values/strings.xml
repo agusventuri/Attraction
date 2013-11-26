@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Attraction</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="asteroids">Asteroids</string>
+    <string name="play">Play</string>
+    
+    <string name="howto">¿Como Jugar?</string>
+    <string name="crosshair">Crosshair: Este es nuestro personaje.
+        Debemos situar su centro sobre un enemigo para destruirlo y así
+        evitar que nos quite vida. Esta consiste en una barra que se reduce
+        en un 25% con cada enemigo que crece.</string>
+    <string name="crosshairDescription">Imagen de la mira</string>
+    <string name="enemy">Enemigo: El enemigo consiste en un círculo
+        rojo medio transparente que va a ir creciendo y reduciendo su
+        transparencia. Debemos evitar que crezcan a su tamaño
+        máximo para que no nos quiten vida</string>
+    <string name="enemyDescription">Imagen del enemigo</string>
+    <string name="controller">La forma de controlar a la mira es mediante
+        el analógico en la esquina inferior izquierda de a pantalla.
+        La dirección de la mira responde hacia donde dirijamos el pad.
+        También su velocidad se verá afectada según la distancia a la que
+        esté del centro del analógico. Para disparar podemos tocar en 
+        cualquier parte de la pantalla, excepto donde se encuentra el
+        control de la mira.</string>
+    <string name="controllerDescription">Imagen del pad analógico</string>
+    
+    <string name="credits">Creditos</string>
+    <string name="creditsDevelopers">Desarrolladores:\n  Agustín
+         Venturi\n</string>
+    <string name="creditsColaborators">Colaboradores:\n  Gracias a aquellos
+         que brindaron su ayuda tales como profesores, compañeros y cualquier
+          otra persona que haya aportado al proyecto.</string>
+    <string name="creditsDeveloperDescription">Splash del desarrollador</string>
+    
+
+</resources>

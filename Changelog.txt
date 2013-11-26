@@ -1,0 +1,52 @@
+v0.0.4.0
+-Solucionado problema de calidad de imagen al escalar un enemigo
+
+v0.0.5.0
+-cambiado el layout del xml
+
+v0.0.5.1
+-agregado el analogico
+
+v0.0.5.2
+-la mira con el analogico
+-la mira acelera con el analogico (no frena)
+
+v0.0.5.3
+-la mira acelera y frena con el analogico
+
+v0.0.5.4
+-reducida la inercia de la mira
+-mejorado el sistema de freno de la mira
+
+v0.0.5.5
+-cambiada la imagen a un punto de mira
+-quitada la rotacion del punto de mira
+
+v0.0.5.6
+-crosshair dispara y mata enemigos correctamente
+-mejorada la forma de escalar imagenes
+
+v0.0.5.7
+-crosshair avanza respecto a la distancia del centro del analï¿½gico
+
+v0.0.5.8
+-los enemigos poseen transparencia
+
+v0.0.5.9
+-la nave tiene vida
+-la vida se reduce en un 25% al crecer un enemigo
+
+v0.0.6.0
+-solucionado problema de disparar mas de una bala
+-quitado código basura de game surface
+
+v0.0.6.1
+-agregado sistema de vida (tiene fallas)
+-se pierde cuando se acaba la vida
+-quitado código de testeo ya no utilizado
+
+v0.0.6.2
+-creada la seccion "Instrucciones"
+-creada la seccion "Creditos"
+-cambiados varios assets
+-PRIMERA VERSIÓN DE ENTREGA
